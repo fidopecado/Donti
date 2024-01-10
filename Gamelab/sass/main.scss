@@ -1,0 +1,14 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors:(
+   "altgreen1" : #437804,
+   "altgreen2" : #3D714F,
+   "altlight1"  : #ECF3E2,
+   "altlight2"  : #FBFFF5
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
