@@ -1,5 +1,16 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
 
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+$primary : #437804;
+$succes : #3D714F;
+$info : #ECF3E2;
+$light : #FBFFF5;
+
+// 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors:(
@@ -11,4 +22,12 @@ $custom-theme-colors:(
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+
+// 4. Include any optional Bootstrap CSS as needed
+
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// 6. Add additional custom code here
+
+
