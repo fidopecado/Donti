@@ -4639,6 +4639,7 @@ fieldset:disabled .btn {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
+  font-weight: bold;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -4693,7 +4694,7 @@ fieldset:disabled .btn {
 }
 .accordion-item {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 3px solid rgba(0, 0, 0, 0.45);
 }
 .accordion-item:first-of-type {
   border-top-left-radius: 0.25rem;
