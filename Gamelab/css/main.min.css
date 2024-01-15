@@ -7336,10 +7336,10 @@ fieldset:disabled .btn {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: 1rem !important;
 }
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 0.5rem !important;
 }
 .fst-italic {
   font-style: italic !important;
@@ -10148,3 +10148,57 @@ fieldset:disabled .btn {
     display: none !important;
   }
 } /*# sourceMappingURL=main.min.css.map */
+
+/* Mobile */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  .navbar-toggler img {
+    width: 20px;
+    height: 20px;
+  }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .fs-6 {
+    font-size: 0.4rem !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+  .navbar-brand img{
+    width: 75px;
+    height: 75px;
+  }
+  .navbar-toggler img {
+    width: 35px;
+    height: 35px;
+  }
+  .fs-5 {
+    font-size: 1.25rem !important;
+  }
+  .fs-6 {
+    font-size: 0.75rem !important;
+  }
+}
+
+/* Desktop */
+@media (min-width: 993px) {
+  .navbar-brand img{
+    width: 100px;
+    height: 100px;
+  }
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+  .fs-5 {
+    font-size: 1.75rem !important;
+  }
+  .fs-6 {
+    font-size: 1.25rem !important;
+  }
+}
