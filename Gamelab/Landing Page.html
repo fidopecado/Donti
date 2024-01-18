@@ -19,26 +19,82 @@
       href="https://fonts.googleapis.com/css?family=Plus+Jakarta Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
-  <body class="bg-info" style="background-color: rgba(
-                        236.00000113248825,
-                        243.00000071525574,
-                        226.0000017285347,
-                        1
-                      );">
+  <body
+    class="bg-info"
+    style="
+      background-color: rgba(
+        236.00000113248825,
+        243.00000071525574,
+        226.0000017285347,
+        1
+      );
+    "
+  >
     <header>
       <!-- place navbar here -->
-      <nav class="navbar navbar-light fixed-top bg-transparent">
+      <nav class="navbar p-0 navbar-light fixed-top bg-info">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand d-flex align-items-center" href="#"
             ><img
               src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-20.png"
               alt=""
               class="img-fluid"
           /></a>
+          <ul
+            class="navbar-nav d-flex flex-row text-primary justify-content-end flex-grow-1"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link me-4 fs-6 text-primary"
+                style="font-weight: 700"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link me-4 fs-6 text-primary"
+                style="font-weight: 700"
+                href="#menu"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link me-4 fs-6 text-primary"
+                style="font-weight: 700"
+                href="#location"
+                >Location</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link me-4 fs-6 text-primary"
+                style="font-weight: 700"
+                href="#faq"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link me-4 fs-6 text-primary"
+                style="font-weight: 700"
+                href="#contact-us"
+                >Contact Us!</a
+              >
+            </li>
+          </ul>
           <button
-            class="navbar-toggler border-0"
+            class="navbar-toggler border-0 d-flex align-items-center"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar"
@@ -70,19 +126,21 @@
             <div class="offcanvas-body bg-primary text-end">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Home</a>
+                  <a class="nav-link text-light" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Menu</a>
+                  <a class="nav-link text-light" href="#menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Location</a>
+                  <a class="nav-link text-light" href="#location">Location</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">FAQ</a>
+                  <a class="nav-link text-light" href="#faq">FAQ</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Contact Us!</a>
+                  <a class="nav-link text-light" href="#contact-us"
+                    >Contact Us!</a
+                  >
                 </li>
               </ul>
             </div>
@@ -142,1078 +200,1178 @@
       </nav>
     </header>
     <main>
-      <div class="container-xxl">
-        <div class="row text-center">
-          <div
-            id="col1"
-            class="col-4 ps-0 pe-0 border-0 d-flex align-items-center justify-content-center text-info"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/left-side-green.png);
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-            "
-          >
-            <h1
+      <!--Home-->
+      <section>
+        <div class="container-fluid" id="home">
+          <div class="row text-center">
+            <div
+              id="col1"
+              class="col-4 ps-0 pe-0 border-0 d-flex align-items-center justify-content-center text-info"
               style="
-                color: rgba(
-                  236.00000113248825,
-                  243.00000071525574,
-                  226.0000017285347,
-                  1
-                );
-                font-family: Plus Jakarta Sans;
-                font-size: 4vw;
-                letter-spacing: -3;
-                text-align: left;
-                padding-left: 10px;
-                font-weight: 600;
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/left-side-green.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
               "
             >
-              Enjoy your morning with our freshly brewed coffee.
-            </h1>
-          </div>
-          <div id="col2" class="col-4 ps-0 pe-0 border-0">
-            <img
-              class="img-fluid"
-              src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/image 1.png"
-              style="height: 100%; width: 100%"
-            />
-          </div>
-          <div
-            id="col3"
-            class="col-4 border-0 bg-info text-primary border d-flex flex-column pe-0 ps-0 m-0"
-          >
-            <div
-              id="v1"
-              class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
-            >
-              <span
+              <h1
                 style="
                   color: rgba(
-                    67.00000360608101,
-                    120.00000044703484,
-                    4.000000236555934,
+                    236.00000113248825,
+                    243.00000071525574,
+                    226.0000017285347,
                     1
                   );
                   font-family: Plus Jakarta Sans;
-                  width: 24.5vw;
-                  height: auto;
-                  font-size: 1.9vw;
-                  font-weight: 700;
-                  text-align: left;
-                  padding-top: 2vw;
-                  padding-left: 5vw;
-                  font-weight: 700;
-                "
-                >Each cup of tea represents an imaginary voyage.</span
-              >
-            </div>
-            <div
-              id="v2"
-              class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
-            >
-              <div
-                class="bg-primary text-info p-2 d-flex flex-column align-items-center justify-content-center"
-                style="
-                  width: 20vw;
-                  height: 15vw;
-                  border-radius: 5px;
-                  box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                "
-              >
-                <span
-                  id="firstText"
-                  10
-                  style="
-                    margin-bottom: 0;
-                    font-family: Plus Jakarta Sans;
-                    font-size: 2vw;
-                    font-weight: 700;
-                    font-weight: 800;
-                  "
-                  >Drink of The Day :</span
-                >
-                <a
-                  href="#"
-                  class=""
-                  style="
-                    color: rgba(236, 243, 226, 0.75);
-                    font-weight: 100;
-                    font-family: Plus Jakarta Sans;
-                    font-size: 1.7vw;
-                    display: block;
-                  "
-                  >Freshly Brewed Coffee Latte</a
-                >
-              </div>
-            </div>
-            <div
-              id="v3"
-              class="flex-fill d-flex align-items-center justify-content-center"
-            >
-              <a href="#"><i class="bi bi-instagram pe-2"></i></a>
-              <a href="#"><i class="bi bi-geo-alt-fill pe-2"></i></a>
-              <a href="#"><i class="bi bi-twitter"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MENU -->
-      <div
-        class="container-fluid d-flex justify-content-center align-items-center"
-        style="
-          background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu.png);
-          background-size: 100% 100%;
-          background-repeat: no-repeat;
-          width: 100%;
-          height: 70vw;
-          flex-direction: column;
-        "
-      >
-        <div id="row1" class="row text-center mt-5 pt-2 pt-md-3 pt-lg-5 pb-2 pb-md-3 pb-lg-5">
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-16.png);
-              background-size: cover;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              margin-bottom: 2vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal1"
-          >
-            Main Course
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-17.png);
-              background-size: 101% 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              margin-bottom: 2vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal2"
-          >
-            Coffee
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-18.png);
-              background-size: cover;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              margin-bottom: 2vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal3"
-          >
-            Tea Latte
-          </div>
-        </div>
-        <div id="row2" class="row text-center pb-2 pb-md-3 pb-lg-5">
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/LightMeal.png);
-              background-size: cover;
-              background-repeat: no-repeat;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal4"
-          >
-            Light Meal
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/PureTea.png);
-              background-size: 101% 100%;
-              background-repeat: no-repeat;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal5"
-          >
-            Pure Tea
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Indonesian.png);
-              background-size: cover;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal6"
-          >
-            Indonesian Favourites
-          </div>
-        </div>
-        <div id="row3" class="row text-center pb-5">
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/CheeseBalls.png);
-              background-size: cover;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal7"
-          >
-            Cheese Balls
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/RiceBowl.png);
-              background-size: 101% 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal8"
-          >
-            Rice Bowl
-          </div>
-          <div
-            class="col text-light"
-            style="
-              background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Dessert.png);
-              background-size: cover;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              width: 20vw;
-              height: 15vw;
-              border-radius: 10px;
-              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-              margin-left: 5vw;
-              font-size: 3vw;
-              font-weight: 700;
-              cursor: pointer;
-            "
-            data-bs-toggle="modal"
-            data-bs-target="#modal9"
-          >
-            Dessert
-          </div>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="modal1"
-        tabindex="-1"
-        aria-labelledby="Modal1Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="Modal1Label">
-                Main Course
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-7.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal2"
-        tabindex="-1"
-        aria-labelledby="Modal2Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="Modal2Label">
-                Chocolate & Coffee
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-5.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal3"
-        tabindex="-1"
-        aria-labelledby="Modal3Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="Modal3Label">
-                Cheese Tea & Tea Latte
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-4.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal4"
-        tabindex="-1"
-        aria-labelledby="Modal4Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="Modal4Label">
-                Light Meal
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-6.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal5"
-        tabindex="-1"
-        aria-labelledby="Modal5Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="Modal5Label">Tea</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex flex-column justify-content-center align-content-center"
-              style="align-items: center"
-            >
-              <div>
-                <img
-                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-2.png"
-                  style="height: 60vw; width: 40vw"
-                />
-              </div>
-              <div>
-                <img
-                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-3.png"
-                  style="height: 60vw; width: 40vw"
-                />
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal6"
-        tabindex="-1"
-        aria-labelledby="modal6Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="modal6Label">
-                Indonesian Favourites
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-8.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal7"
-        tabindex="-1"
-        aria-labelledby="modal7Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="modal7Label">
-                Cheese Balls
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-6.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal8"
-        tabindex="-1"
-        aria-labelledby="modal8Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="modal8Label">
-                Rice Bowl
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-9.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="modal9"
-        tabindex="-1"
-        aria-labelledby="modal9Label"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title text-success h3" id="modal9Label">
-                Rice Bowl
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body d-flex justify-content-center align-content-center"
-            >
-              <img
-                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-10.png"
-                style="height: 60vw; width: 40vw"
-              />
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-success"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Location -->
-      <div
-        class="container-fluid d-flex flex-column justify-content-center align-items-center"
-      >
-        <div
-          class="text-light bg-primary d-flex align-content-center justify-content-center mt-2 mb-4"
-          style="
-            justify-content: center;
-            align-items: center;
-            width: 80vw;
-            height: 12vw;
-            border-radius: 10px;
-            box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-            font-size: 5vw;
-            font-weight: 700;
-            letter-spacing: 2.5px;
-          "
-        >
-          Find Us Here!
-        </div>
-        <div class="row">
-          <div id="carousel" class="col-9 ms-0 me-0 ps-0 pe-0">
-            <div
-              id="carouselExampleCaptions"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-              </div>
-              <div class="carousel-inner ms-0 me-0 pe-0 ps-0">
-                <div class="carousel-item active">
-                  <img
-                    src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-15.png"
-                    class="d-block w-100"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>
-                      Some representative placeholder content for the first
-                      slide.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item ms-0 me-0 pe-0 ps-0">
-                  <img
-                    src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-15.png"
-                    class="d-block w-100"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <div id="col3" class="col-3 bg-light text-primary d-flex flex-column">
-            <div
-              id="v12"
-              class="flex-fill d-flex align-items-center justify-content-center"
-            ></div>
-            <div
-              id="v22"
-              class="flex-fill d-flex align-items-center justify-content-center ps-3"
-              style="
-                font-family: Plus Jakarta Sans;
-                font-size: 1.5vw;
-                font-weight: 700;
-                line-height: 1.2;
-                padding-top: 20px;
-              "
-            >
-              Jl. Banjarsari No.14, <br />
-              Tembalang, Kec. Tembalang,<br />
-              Kota Semarang, <br />
-              Jawa Tengah <br />
-              50275
-            </div>
-            <div
-              id="v32"
-              class="flex-fill d-flex align-items-end justify-content-center mb-2"
-            >
-              <a href="#"><i class="bi bi-geo-alt-fill h1"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--FAQ-->
-      <div class="container-xxl">
-        <div class="row">
-          <div class="col-3">
-            <div
-              id="v123"
-              class="d-flex align-items-end justify-content-center pt-5"
-            >
-              <div
-                class="text-light bg-primary d-flex align-items-end justify-content-center"
-                style="
-                  justify-content: center;
-                  align-items: center;
-                  width: 21vw;
-                  height: 7w;
-                  border-radius: 25px;
-                  box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
                   font-size: 4vw;
-                  font-weight: 700;
-                  letter-spacing: 2.5px;
-                  margin-top: 5vh;
-                  margin-bottom: 5vh;
+                  letter-spacing: -3;
+                  text-align: left;
+                  padding-left: 10px;
+                  font-weight: 600;
                 "
               >
-                FAQ!
-              </div>
+                Enjoy your morning with our freshly brewed coffee.
+              </h1>
+            </div>
+            <div id="col2" class="col-4 ps-0 pe-0 border-0">
+              <img
+                class="img-fluid"
+                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/image 1.png"
+                style="height: 100%; width: 100%"
+              />
             </div>
             <div
-              id="v223"
-              class="flex-fill d-flex align-items-center justify-content-start ps-1 ps-md-3 ps-lg-4 text-primary"
-              style="
-                font-family: Plus Jakarta Sans;
-                font-size: 3vw;
-                font-weight: bolder;
-                line-height: 1.1;
-                padding-top: 1px;
-                text-align: left;
-              "
+              id="col3"
+              class="col-4 border-0 bg-info text-primary border d-flex flex-column pe-0 ps-0 m-0"
             >
-              Frequently <br />
-              Asked<br />
-              Question <br />
-            </div>
-            <div
-              id="v323"
-              class="flex-fill d-flex align-items-end justify-content-center p-5"
-            ></div>
-          </div>
-          <div
-            class="col-9 bg-primary text-info d-flex align-items-center justify-content-center"
-          >
-            <div class="container p-5">
-              <div class="accordion" id="accordionFlushExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header fs-5" id="flush-headingOne">
-                    <button
-                      class="accordion-button collapsed bg-info text-primary"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne"
-                    >
-                      FAQ #1
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
+              <div
+                id="v1"
+                class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
+              >
+                <span
+                  style="
+                    color: rgba(
+                      67.00000360608101,
+                      120.00000044703484,
+                      4.000000236555934,
+                      1
+                    );
+                    font-family: Plus Jakarta Sans;
+                    width: 24.5vw;
+                    height: auto;
+                    font-size: 1.9vw;
+                    font-weight: 700;
+                    text-align: left;
+                    padding-top: 2vw;
+                    padding-left: 5vw;
+                    font-weight: 700;
+                  "
+                  >Each cup of tea represents an imaginary voyage.</span
+                >
+              </div>
+              <div
+                id="v2"
+                class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="bg-primary text-info p-2 d-flex flex-column align-items-center justify-content-center"
+                  style="
+                    width: 20vw;
+                    height: 15vw;
+                    border-radius: 5px;
+                    box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                  "
+                >
+                  <span
+                    id="firstText"
+                    10
+                    style="
+                      margin-bottom: 0;
+                      font-family: Plus Jakarta Sans;
+                      font-size: 2vw;
+                      font-weight: 700;
+                      font-weight: 800;
+                    "
+                    >Drink of The Day :</span
                   >
-                    <div class="accordion-body bg-info text-primary">
-                      Placeholder content for this accordion, which is intended
-                      to demonstrate the <code>.accordion-flush</code> class.
-                      This is the first item's accordion body.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header fs-5" id="flush-headingTwo">
-                    <button
-                      class="accordion-button bg-info text-primary"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseTwo"
-                    >
-                      FAQ #2
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
+                  <a
+                    href="#"
+                    class=""
+                    style="
+                      color: rgba(236, 243, 226, 0.75);
+                      font-weight: 100;
+                      font-family: Plus Jakarta Sans;
+                      font-size: 1.7vw;
+                      display: block;
+                    "
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal2"
+                    >Freshly Brewed Coffee Latte</a
                   >
-                    <div class="accordion-body bg-info text-primary">
-                      Placeholder content for this accordion, which is intended
-                      to demonstrate the <code>.accordion-flush</code> class.
-                      This is the second item's accordion body. Let's imagine
-                      this being filled with some actual content.
-                    </div>
-                  </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header fs-5" id="flush-headingThree">
-                    <button
-                      class="accordion-button bg-info text-primary"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseThree"
-                    >
-                      FAQ #3
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body bg-info text-primary">
-                      Placeholder content for this accordion, which is intended
-                      to demonstrate the <code>.accordion-flush</code> class.
-                      This is the third item's accordion body. Nothing more
-                      exciting happening here in terms of content, but just
-                      filling up the space to make it look, at least at first
-                      glance, a bit more representative of how this would look
-                      in a real-world application.
-                    </div>
-                  </div>
-                </div>
+              </div>
+              <div
+                id="v3"
+                class="flex-fill d-flex align-items-center justify-content-center"
+              >
+                <a href="#"><i class="bi bi-instagram pe-2"></i></a>
+                <a href="#"><i class="bi bi-geo-alt-fill pe-2"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--Form-->
-      <div class="container-xxl d-flex flex-column align-items-center">
+      </section>
+      <!--Review-->
+      <section class="mb-4">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mt-4 mb-4 fs-2 text-primary">Review</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0 fs-3">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+              error amet numquam iure provident voluptate esse quasi, veritatis
+              totam voluptas nostrum quisquam eum porro a pariatur veniam.
+            </p>
+          </div>
+        </div>
+
+        <div class="row text-center d-flex align-items-stretch">
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #9d789b"></div>
+              <div class="avatar mx-auto bg-white">
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/beard.png"
+                  class="rounded-circle img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4 fs-3">Maria Smantha</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>Lorem ipsum dolor sit
+                  amet eos adipisci, consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #7a81a8"></div>
+              <div class="avatar mx-auto bg-white">
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/woman.png"
+                  class="rounded-circle img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4 fs-3">Lisa Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>Neque cupiditate
+                  assumenda in maiores repudi mollitia architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #6d5b98"></div>
+              <div class="avatar mx-auto bg-white">
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/man.png"
+                  class="rounded-circle img-fluid"
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4 fs-3">John Smith</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>Delectus impedit saepe
+                  officiis ab aliquam repellat rem unde ducimus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MENU -->
+      <section>
         <div
-          class="text-light bg-primary d-flex align-content-center justify-content-center mt-2 mb-3"
+          id="menu"
+          class="container-fluid d-flex justify-content-center align-items-center"
           style="
-            justify-content: center;
-            align-items: center;
-            width: 80vw;
-            height: 10vw;
-            border-radius: 10px;
-            box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-            font-size: 5vw;
-            font-weight: 700;
-            letter-spacing: 2.5px;
+            background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 70vw;
+            flex-direction: column;
           "
         >
-          Kirimkan Pesanmu!
+          <div
+            id="row1"
+            class="row text-center mt-5 pt-2 pt-md-3 pt-lg-5 pb-2 pb-md-3 pb-lg-5"
+          >
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-16.png);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                margin-bottom: 2vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal1"
+            >
+              Main Course
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-17.png);
+                background-size: 101% 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                margin-bottom: 2vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal2"
+            >
+              Coffee
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-18.png);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                margin-bottom: 2vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal3"
+            >
+              Tea Latte
+            </div>
+          </div>
+          <div id="row2" class="row text-center pb-2 pb-md-3 pb-lg-5">
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/LightMeal.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal4"
+            >
+              Light Meal
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/PureTea.png);
+                background-size: 101% 100%;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal5"
+            >
+              Pure Tea
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Indonesian.png);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal6"
+            >
+              Indonesian Favourites
+            </div>
+          </div>
+          <div id="row3" class="row text-center pb-5">
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/CheeseBalls.png);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal7"
+            >
+              Cheese Balls
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/RiceBowl.png);
+                background-size: 101% 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal8"
+            >
+              Rice Bowl
+            </div>
+            <div
+              class="col text-light"
+              style="
+                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Dessert.png);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 15vw;
+                border-radius: 10px;
+                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                margin-left: 5vw;
+                font-size: 3vw;
+                font-weight: 700;
+                cursor: pointer;
+              "
+              data-bs-toggle="modal"
+              data-bs-target="#modal9"
+            >
+              Dessert
+            </div>
+          </div>
         </div>
-        <div class="mb-3 w-100">
-          <label for="" class="form-label pt-2">Nama</label>
-          <input
-            type="text"
-            name=""
-            id=""
-            class="form-control"
-            placeholder=""
-            aria-describedby="helpId"
-          />
-          <div class="mb-3">
-            <label for="" class="form-label pt-2">Email</label>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="modal1"
+          tabindex="-1"
+          aria-labelledby="Modal1Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="Modal1Label">
+                  Main Course
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-7.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal2"
+          tabindex="-1"
+          aria-labelledby="Modal2Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="Modal2Label">
+                  Chocolate & Coffee
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-5.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal3"
+          tabindex="-1"
+          aria-labelledby="Modal3Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="Modal3Label">
+                  Cheese Tea & Tea Latte
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-4.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal4"
+          tabindex="-1"
+          aria-labelledby="Modal4Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="Modal4Label">
+                  Light Meal
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-6.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal5"
+          tabindex="-1"
+          aria-labelledby="Modal5Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="Modal5Label">
+                  Tea
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex flex-column justify-content-center align-content-center"
+                style="align-items: center"
+              >
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-2.png"
+                    style="height: 60vw; width: 40vw"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-3.png"
+                    style="height: 60vw; width: 40vw"
+                  />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal6"
+          tabindex="-1"
+          aria-labelledby="modal6Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="modal6Label">
+                  Indonesian Favourites
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-8.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal7"
+          tabindex="-1"
+          aria-labelledby="modal7Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="modal7Label">
+                  Cheese Balls
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-6.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal8"
+          tabindex="-1"
+          aria-labelledby="modal8Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="modal8Label">
+                  Rice Bowl
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-9.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="modal9"
+          tabindex="-1"
+          aria-labelledby="modal9Label"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-success h3" id="modal9Label">
+                  Rice Bowl
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="modal-body d-flex justify-content-center align-content-center"
+              >
+                <img
+                  src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu Dontea-10.png"
+                  style="height: 60vw; width: 40vw"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Location -->
+      <section>
+        <div
+          id="location"
+          class="container-fluid d-flex flex-column justify-content-center align-items-center"
+        >
+          <div
+            class="text-light bg-primary d-flex align-content-center justify-content-center mt-2 mb-4"
+            style="
+              justify-content: center;
+              align-items: center;
+              width: 80vw;
+              height: 12vw;
+              border-radius: 10px;
+              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+              font-size: 5vw;
+              font-weight: 700;
+              letter-spacing: 2.5px;
+            "
+          >
+            Find Us Here!
+          </div>
+          <div class="row">
+            <div id="carousel" class="col-9 ms-0 me-0 ps-0 pe-0">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                </div>
+                <div class="carousel-inner ms-0 me-0 pe-0 ps-0">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-15.png"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item ms-0 me-0 pe-0 ps-0">
+                    <img
+                      src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-15.png"
+                      class="d-block w-100"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>
+                        Some representative placeholder content for the second
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div
+              id="col3"
+              class="col-3 bg-light text-primary d-flex flex-column"
+            >
+              <div
+                id="v12"
+                class="flex-fill d-flex align-items-center justify-content-center"
+              ></div>
+              <div
+                id="v22"
+                class="flex-fill d-flex align-items-center justify-content-center ps-3"
+                style="
+                  font-family: Plus Jakarta Sans;
+                  font-size: 1.5vw;
+                  font-weight: 700;
+                  line-height: 1.2;
+                  padding-top: 20px;
+                "
+              >
+                Jl. Banjarsari No.14, <br />
+                Tembalang, Kec. Tembalang,<br />
+                Kota Semarang, <br />
+                Jawa Tengah <br />
+                50275
+              </div>
+              <div
+                id="v32"
+                class="flex-fill d-flex align-items-end justify-content-center mb-2"
+              >
+                <a href="#"><i class="bi bi-geo-alt-fill h1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--FAQ-->
+      <section>
+        <div class="container-fluid" id="faq">
+          <div class="row">
+            <div class="col-3">
+              <div
+                id="v123"
+                class="d-flex align-items-end justify-content-center pt-5"
+              >
+                <div
+                  class="text-light bg-primary"
+                  style="
+                    justify-content: center;
+                    align-items: center;
+                    width: 19vw;
+                    height: 7vh;
+                    border-radius: 15px;
+                    box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+                    font-size: 4vw;
+                    font-weight: 700;
+                    letter-spacing: 2.5px;
+                    margin-top: 5vh;
+                    margin-bottom: 2vh;
+                  "
+                >
+                  <div
+                    class="w-100 h-100 text-sm d-flex align-items-center justify-content-center"
+                  >
+                    FAQ!
+                  </div>
+                </div>
+              </div>
+              <div
+                id="v223"
+                class="flex-fill d-flex align-items-center justify-content-start ps-1 ps-md-3 ps-lg-4 text-primary"
+                style="
+                  font-family: Plus Jakarta Sans;
+                  font-size: 3vw;
+                  font-weight: bolder;
+                  line-height: 1.1;
+                  padding-top: 1px;
+                  margin-right: 2px;
+                  text-align: left;
+                "
+              >
+                Frequently <br />
+                Asked<br />
+                Question <br />
+              </div>
+              <div
+                id="v323"
+                class="flex-fill d-flex align-items-end justify-content-center p-5"
+              ></div>
+            </div>
+            <div
+              class="col-9 bg-primary text-info d-flex align-items-center justify-content-center"
+            >
+              <div class="container p-5">
+                <div class="accordion" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header fs-5" id="flush-headingOne">
+                      <button
+                        class="accordion-button h6 mb-0 collapsed bg-info text-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Apa saja menu spesial di Dontea?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body bg-info text-primary">
+                        Kami menyediakan beberapa menu spesial seperti Nasi
+                        Katsu Hongkong dan Minuman yang lezat seperti
+                        Matchaberry Latte kami!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header fs-5" id="flush-headingTwo">
+                      <button
+                        class="accordion-button h6 mb-0 bg-info text-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Apakah Dontea memiliki fasilitas mushola?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body bg-info text-primary">
+                        Terimakasih telah menanyakan tentang fasilitas kami! Ya,
+                        kami menyediakan fasilitas mushola bagi umat muslim
+                        untuk melaksanakan sholat
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header fs-5" id="flush-headingThree">
+                      <button
+                        class="accordion-button h6 mb-0 bg-info text-primary"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Dari jam berapa sampai jam berapakah Dontea buka?
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body bg-info text-primary">
+                        Untuk jam buka kami buka dari pukul 10 pagi sampai
+                        dengan pukul 11 malam (10.00 - 22.00 WIB).
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contact Us-->
+      <section>
+        <div
+          class="container-fluid d-flex flex-column align-items-center"
+          id="contact-us"
+        >
+          <div
+            class="text-light bg-primary d-flex align-content-center justify-content-center mt-2 mb-3"
+            style="
+              justify-content: center;
+              align-items: center;
+              width: 80vw;
+              height: 10vw;
+              border-radius: 10px;
+              box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
+              font-size: 5vw;
+              font-weight: 700;
+              letter-spacing: 2.5px;
+            "
+          >
+            Kirimkan Pesanmu!
+          </div>
+          <div class="mb-3 w-100">
+            <label for="" class="form-label pt-2">Nama</label>
             <input
-              type="email"
-              class="form-control"
+              type="text"
               name=""
               id=""
-              aria-describedby="emailHelpId"
-              placeholder="JohnDoe@mail.com"
+              class="form-control"
+              placeholder=""
+              aria-describedby="helpId"
             />
             <div class="mb-3">
-              <label for="" class="form-label pt-2">Pesan</label>
-              <textarea
+              <label for="" class="form-label pt-2">Email</label>
+              <input
+                type="email"
                 class="form-control"
                 name=""
                 id=""
-                rows="3"
-                placeholder="Tuliskan Pesanmu Disini!"
-              ></textarea>
+                aria-describedby="emailHelpId"
+                placeholder="JohnDoe@mail.com"
+              />
+              <div class="mb-3">
+                <label for="" class="form-label pt-2">Pesan</label>
+                <textarea
+                  class="form-control"
+                  name=""
+                  id=""
+                  rows="3"
+                  placeholder="Tuliskan Pesanmu Disini!"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
       <!-- place footer here -->
-      <div class="container-xxl">
-        <div class="row bg-primary text-info">
-          <div
-            class="col-3 d-flex justify-content-center align-items-center p-5"
-          >
-            <img
-              src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-20.png"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-4 d-flex flex-column justify-content-center">
-            <h3 class="fs-5" style="margin-top: 5px">Dontea</h3>
-            <h6 class="fs-6">
+      <section>
+        <div class="container-fluid">
+          <div class="row bg-primary text-info">
+            <div
+              class="col-3 d-flex justify-content-center align-items-center p-5"
+            >
+              <img
+                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-20.png"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-4 d-flex flex-column justify-content-center">
+              <h3 class="fs-5" style="margin-top: 5px">Dontea</h3>
+              <h6 class="fs-6">
                 Dontea merupakan sebuah kafe <br />
                 yang mengusung teh dan boba <br />
                 sebagai menu utamanya, selain <br />
                 terdapat juga beberapa menu <br />
                 lainnya.
-            </h6>
-        </div>
-        <div class="col-5 d-flex flex-column justify-content-center">
-            <div class="d-flex align-items-start">
+              </h6>
+            </div>
+            <div class="col-5 d-flex flex-column justify-content-center">
+              <div class="d-flex align-items-start">
                 <i class="bi bi-geo-alt-fill h5 fs-6"></i>
                 <span class="ms-2 h5 fs-6">
-                    Jl. Banjarsari No.14, Tembalang, <br />
-                    Kec. Tembalang, Kota Semarang, <br />
-                    Jawa Tengah 50275
+                  Jl. Banjarsari No.14, Tembalang, <br />
+                  Kec. Tembalang, Kota Semarang, <br />
+                  Jawa Tengah 50275
                 </span>
-            </div>
-            <div class="d-flex align-items-center">
+              </div>
+              <div class="d-flex align-items-center">
                 <i class="bi bi-instagram h5 fs-6"></i>
                 <span class="ms-2 h5 fs-6">@dontea.smg</span>
-            </div>
-            <div class="d-flex align-items-center">
+              </div>
+              <div class="d-flex align-items-center">
                 <i class="bi bi-clock-fill h5 fs-6"></i>
                 <span class="ms-2 h5 fs-6">10.00 am–11.00 pm</span>
+              </div>
             </div>
+          </div>
         </div>
-        </div>
-      </div>
+      </section>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
