@@ -54,7 +54,7 @@
           >
             <li class="nav-item">
               <a
-                class="nav-link me-4 fs-6 text-primary"
+                class="nav-link me-4 fs-sm-6 fs-md-5 text-primary"
                 style="font-weight: 700"
                 href="#home"
                 >Home</a
@@ -62,7 +62,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link me-4 fs-6 text-primary"
+                class="nav-link me-4 fs-sm-6 fs-md-5 text-primary"
                 style="font-weight: 700"
                 href="#menu"
                 >Menu</a
@@ -70,7 +70,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link me-4 fs-6 text-primary"
+                class="nav-link me-4 fs-sm-6 fs-md-5 text-primary"
                 style="font-weight: 700"
                 href="#location"
                 >Location</a
@@ -78,7 +78,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link me-4 fs-6 text-primary"
+                class="nav-link me-4 fs-sm-6 fs-md-5 text-primary"
                 style="font-weight: 700"
                 href="#faq"
                 >FAQ</a
@@ -86,7 +86,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link me-4 fs-6 text-primary"
+                class="nav-link me-4 fs-sm-6 fs-md-5 text-primary"
                 style="font-weight: 700"
                 href="#contact-us"
                 >Contact Us!</a
@@ -206,34 +206,39 @@
           <div class="row text-center">
             <div
               id="col1"
-              class="col-4 ps-0 pe-0 border-0 d-flex align-items-center justify-content-center text-info"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/left-side-green.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-              "
+              class="pt-md-2 card text-white col-md-4 col-12 ps-0 pe-0 border-0 d-flex align-items-center justify-content-center text-info "
+              style="max-width: 100%; height: 100%"
             >
-              <h1
-                style="
-                  color: rgba(
-                    236.00000113248825,
-                    243.00000071525574,
-                    226.0000017285347,
-                    1
-                  );
-                  font-family: Plus Jakarta Sans;
-                  font-size: 4vw;
-                  letter-spacing: -3;
-                  text-align: left;
-                  padding-left: 10px;
-                  font-weight: 600;
-                "
+              <img
+                src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/left-side-green.png"
+                class="card-img img-fluid"
+                alt="..."
+                style="display: block; width: 100%; height: auto; border-radius: 0px; border: 0px; padding: 0px; margin: 0px;"
+              />
+              <div
+                class="card-img-overlay d-flex align-items-center justify-content-center"
               >
-                Enjoy your morning with our freshly brewed coffee.
-              </h1>
+                <h1
+                  class="fs-1"
+                  style="
+                    color: rgba(
+                      236.00000113248825,
+                      243.00000071525574,
+                      226.0000017285347,
+                      1
+                    );
+                    font-family: Plus Jakarta Sans;
+                    text-align: left;
+                    padding-left: 10px;
+                    font-weight: 800;
+                  "
+                >
+                  Enjoy your morning with our freshly brewed coffee.
+                </h1>
+              </div>
             </div>
-            <div id="col2" class="col-4 ps-0 pe-0 border-0">
+
+            <div id="col2" class="col-4 d-none d-md-block ps-0 pe-0 border-0">
               <img
                 class="img-fluid"
                 src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/image 1.png"
@@ -242,13 +247,14 @@
             </div>
             <div
               id="col3"
-              class="col-4 border-0 bg-info text-primary border d-flex flex-column pe-0 ps-0 m-0"
+              class="col-md-4 col-12 border-0 bg-info text-primary border d-flex flex-column pe-0 ps-0 m-0"
             >
               <div
                 id="v1"
-                class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
+                class="mt-lg-4 pb-3 mt-md-2 border-bottom border-2 border-primary d-none d-md-flex align-items-center justify-content-center"
               >
                 <span
+                  class="fs-1 fs-md-4 p-5 ps-md-5 pb-md-0 pt-md-5"
                   style="
                     color: rgba(
                       67.00000360608101,
@@ -257,66 +263,69 @@
                       1
                     );
                     font-family: Plus Jakarta Sans;
-                    width: 24.5vw;
+                    width: 100%;
                     height: auto;
-                    font-size: 1.9vw;
                     font-weight: 700;
                     text-align: left;
-                    padding-top: 2vw;
-                    padding-left: 5vw;
-                    font-weight: 700;
+                    font-weight: 800;
                   "
-                  >Each cup of tea represents an imaginary voyage.</span
                 >
+                  Each cup of tea represents an imaginary voyage.
+                </span>
               </div>
               <div
                 id="v2"
-                class="flex-fill border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
+                class="p-5 ps-md-0 pe-md-0 pt-md-2 pb-md-2 border-bottom border-2 border-primary d-flex align-items-center justify-content-center"
               >
                 <div
-                  class="bg-primary text-info p-2 d-flex flex-column align-items-center justify-content-center"
+                  class="bg-primary text-info p-2 mt-md-2 mb-md-2 d-flex flex-column align-items-center justify-content-center"
                   style="
-                    width: 20vw;
-                    height: 15vw;
+                    width: 80%;
+                    height: auto;
                     border-radius: 5px;
                     box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
                   "
                 >
                   <span
+                    class="fs-2 fs-md-4"
                     id="firstText"
                     10
                     style="
                       margin-bottom: 0;
                       font-family: Plus Jakarta Sans;
-                      font-size: 2vw;
+                      font-size: 2rem;
                       font-weight: 700;
                       font-weight: 800;
                     "
                     >Drink of The Day :</span
                   >
                   <a
+                    class="fs-3 fs-md-5"
                     href="#"
                     class=""
                     style="
                       color: rgba(236, 243, 226, 0.75);
                       font-weight: 100;
                       font-family: Plus Jakarta Sans;
-                      font-size: 1.7vw;
+                      font-size: 1.7rem;
                       display: block;
                     "
                     data-bs-toggle="modal"
                     data-bs-target="#modal2"
-                    >Freshly Brewed Coffee Latte</a
+                    >Freshly Brewed <br />
+                    Coffee Latte</a
                   >
                 </div>
               </div>
               <div
                 id="v3"
-                class="flex-fill d-flex align-items-center justify-content-center"
+                class="flex-fill d-flex align-items-end justify-content-center border-bottom border-2 border-primary"
               >
-                <a href="#"><i class="bi bi-instagram pe-2"></i></a>
-                <a href="#"><i class="bi bi-geo-alt-fill pe-2"></i></a>
-                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram ps-4 pe-4 fs-1"></i></a>
+                <a href="#"
+                  ><i class="bi bi-geo-alt-fill ps-4 pe-4 fs-1"></i
+                ></a>
+                <a href="#"><i class="bi bi-twitter ps-4 pe-4 fs-1"></i></a>
               </div>
             </div>
           </div>
@@ -326,12 +335,12 @@
       <section class="mb-4">
         <div class="row d-flex justify-content-center">
           <div class="col-md-10 col-xl-8 text-center">
-            <h3 class="mt-4 mb-4 fs-2 text-primary">Review</h3>
-            <p class="mb-4 pb-2 mb-md-5 pb-md-0 fs-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-              error amet numquam iure provident voluptate esse quasi, veritatis
-              totam voluptas nostrum quisquam eum porro a pariatur veniam.
-            </p>
+            <h3
+              class="mt-4 mb-4 fs-1 text-primary"
+              style="font-weight: 800; letter-spacing: 2px"
+            >
+              Review
+            </h3>
           </div>
         </div>
 
@@ -339,18 +348,21 @@
           <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
             <div class="card testimonial-card">
               <div class="card-up" style="background-color: #9d789b"></div>
-              <div class="avatar mx-auto bg-white">
+              <div class="avatar mx-auto bg-primary">
                 <img
                   src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/beard.png"
-                  class="rounded-circle img-fluid"
+                  class="rounded-circle pt-3"
+                  style="max-width: 50%; height: auto"
                 />
               </div>
               <div class="card-body">
-                <h4 class="mb-4 fs-3">Maria Smantha</h4>
+                <h4 class="mb-4 fs-3">Revo Bintang</h4>
                 <hr />
                 <p class="dark-grey-text mt-4">
-                  <i class="fas fa-quote-left pe-2 fs-4"></i>Lorem ipsum dolor sit
-                  amet eos adipisci, consectetur adipisicing elit.
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>Comfortable
+                  atmosphere, varied drinks, good for hanging out for a long
+                  time and doing homework There are prayer room facilities in
+                  the back area and a seating area.
                 </p>
               </div>
             </div>
@@ -358,18 +370,21 @@
           <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
             <div class="card testimonial-card">
               <div class="card-up" style="background-color: #7a81a8"></div>
-              <div class="avatar mx-auto bg-white">
+              <div class="avatar mx-auto bg-primary">
                 <img
                   src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/woman.png"
-                  class="rounded-circle img-fluid"
+                  class="rounded-circle pt-3"
+                  style="max-width: 50%; height: auto"
                 />
               </div>
               <div class="card-body">
-                <h4 class="mb-4 fs-3">Lisa Cudrow</h4>
+                <h4 class="mb-4 fs-3">Dian Kartika</h4>
                 <hr />
                 <p class="dark-grey-text mt-4">
-                  <i class="fas fa-quote-left pe-2 fs-4"></i>Neque cupiditate
-                  assumenda in maiores repudi mollitia architecto.
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>If you tea lover,
+                  you should come in this place. I love their bread for french
+                  toast, not too sweet but perfect combination with lotus
+                  biscoff jam. And also, the vibes, i love it more
                 </p>
               </div>
             </div>
@@ -377,18 +392,20 @@
           <div class="col-md-4 mb-0 d-flex align-items-stretch">
             <div class="card testimonial-card">
               <div class="card-up" style="background-color: #6d5b98"></div>
-              <div class="avatar mx-auto bg-white">
+              <div class="avatar mx-auto bg-primary">
                 <img
                   src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/man.png"
-                  class="rounded-circle img-fluid"
+                  class="rounded-circle pt-3"
+                  style="max-width: 50%; height: auto"
                 />
               </div>
               <div class="card-body">
-                <h4 class="mb-4 fs-3">John Smith</h4>
+                <h4 class="mb-4 fs-3">Abisha Zaki</h4>
                 <hr />
                 <p class="dark-grey-text mt-4">
-                  <i class="fas fa-quote-left pe-2 fs-4"></i>Delectus impedit saepe
-                  officiis ab aliquam repellat rem unde ducimus.
+                  <i class="fas fa-quote-left pe-2 fs-4"></i>Good, tasty,
+                  comfortable... affordable. There are branches outside the city
+                  too
                 </p>
               </div>
             </div>
@@ -396,230 +413,107 @@
         </div>
       </section>
       <!-- MENU -->
-      <section>
-        <div
-          id="menu"
-          class="container-fluid d-flex justify-content-center align-items-center"
-          style="
-            background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Menu.png);
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 70vw;
-            flex-direction: column;
-          "
-        >
-          <div
-            id="row1"
-            class="row text-center mt-5 pt-2 pt-md-3 pt-lg-5 pb-2 pb-md-3 pb-lg-5"
-          >
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-16.png);
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                margin-bottom: 2vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal1"
-            >
-              Main Course
+      <section class="bg-primary">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <!-- Main Course Card -->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal1">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-16.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Main Course">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Main Course</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-17.png);
-                background-size: 101% 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                margin-bottom: 2vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal2"
-            >
-              Coffee
+            <!-- Coffee Card -->
+            <div class="col-12 col-md-4 mb-4 border-0">
+              <button type="button" class="btn border-0" data-bs-toggle="modal" data-bs-target="#modal2">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;" >
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-17.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px; " alt="Coffee">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Coffee</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-18.png);
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                margin-bottom: 2vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal3"
-            >
-              Tea Latte
+            <!-- Tea Latte Card -->
+            <div class="col-12 col-md-4 mb-4 border-0">
+              <button type="button" class="btn border-0" data-bs-toggle="modal" data-bs-target="#modal3">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Rectangle-18.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Tea Latte</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-          </div>
-          <div id="row2" class="row text-center pb-2 pb-md-3 pb-lg-5">
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/LightMeal.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal4"
-            >
-              Light Meal
+            <!--LightMeal-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal4">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/LightMeal.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Light Meal</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/PureTea.png);
-                background-size: 101% 100%;
-                background-repeat: no-repeat;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal5"
-            >
-              Pure Tea
+            <!--PureTea-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal5">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/PureTea.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Pure Tea</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Indonesian.png);
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal6"
-            >
-              Indonesian Favourites
+            <!--Indonesian-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal6">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Indonesian.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Indonesian Favourites</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-          </div>
-          <div id="row3" class="row text-center pb-5">
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/CheeseBalls.png);
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal7"
-            >
-              Cheese Balls
+            <!--CheeseBalls-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal7">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/CheeseBalls.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Cheese Balls</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/RiceBowl.png);
-                background-size: 101% 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal8"
-            >
-              Rice Bowl
+            <!--RiceBowl-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal8">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/RiceBowl.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Rice Bowl</h5>
+                  </div>
+                </div>
+              </button>
             </div>
-            <div
-              class="col text-light"
-              style="
-                background-image: url(https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Dessert.png);
-                background-size: cover;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 20vw;
-                height: 15vw;
-                border-radius: 10px;
-                box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);
-                margin-left: 5vw;
-                font-size: 3vw;
-                font-weight: 700;
-                cursor: pointer;
-              "
-              data-bs-toggle="modal"
-              data-bs-target="#modal9"
-            >
-              Dessert
+            <!--Dessert-->
+            <div class="col-12 col-md-4 mb-4">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal9">
+                <div class="card border-0 bg-transparent" style="border-radius: 25px;">
+                  <img src="https://raw.githubusercontent.com/fidopecado/Donti/main/Gamelab/assets/Dessert.png" class="card-img" style="box-shadow: 7px 6px 4px rgba(0, 0, 0, 0.75);border-radius: 25px; width: 100.7%; height: auto;" alt="Tea Latte">
+                  <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                    <h5 class="text-light">Dessert</h5>
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>
